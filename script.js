@@ -4,11 +4,10 @@ let particles = [];
 let animId = null;
 
 const COLORS = [
-  '#f59e0b', '#ef4444', '#8b5cf6',
-  '#10b981', '#3b82f6', '#ec4899',
-  '#f97316', '#fbbf24'
+  '#ff6b35', '#f7c59f', '#efefd0',
+  '#004e89', '#1a936f', '#ffd700',
+  '#ff4d6d', '#c77dff'
 ];
-
 function resize() {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
